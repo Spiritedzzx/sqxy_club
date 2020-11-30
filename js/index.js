@@ -25,7 +25,7 @@
     // x轴相关配置
     xAxis: [{
       type: 'category',
-      data: ["旅游行业", "教育培训", "游戏行业", "医疗行业", "电商行业", "社交行业", "金融行业"],
+      data: ["aa", "bb", "cc", "dd", "ee", "ff", "gg"],
       axisTick: {
         alignWithLabel: true
       },
@@ -63,7 +63,7 @@
     }],
     // 系列列表配置
     series: [{
-      name: '直接访问',
+      name: '提示信息',
       type: 'bar',
       barWidth: '35%',
       // ajax传动态数据
@@ -117,7 +117,7 @@
       axisLabel: {
         color: "#fff"
       },
-      data: ["HTML5", "CSS3", "javascript", "VUE", "NODE"]
+      data: ["A", "B", "D", "E", "F"]
     }, {
       // y轴数据反转，与数组的顺序一致
       inverse: true,
@@ -199,7 +199,7 @@
 (function () {
   // 年份对应数据
   var yearData = [{
-      year: "2020", // 年份
+      year: "2019", // 年份
       data: [
         // 两个数组是因为有两条线
         [24, 40, 101, 134, 90, 230, 210, 230, 120, 230, 210, 120],
@@ -207,7 +207,7 @@
       ]
     },
     {
-      year: "2021", // 年份
+      year: "2020", // 年份
       data: [
         // 两个数组是因为有两条线
         [123, 175, 112, 197, 121, 67, 98, 21, 43, 64, 76, 38],
@@ -278,13 +278,13 @@
     series: [{
         type: 'line',
         smooth: true, // 圆滑的线
-        name: '新增粉丝',
+        name: '去年人数',
         data: yearData[0].data[0]
       },
       {
         type: 'line',
         smooth: true, // 圆滑的线
-        name: '新增游客',
+        name: '今年人数',
         data: yearData[0].data[1]
       }
     ]
@@ -379,7 +379,7 @@
       }
     }],
     series: [{
-        name: '邮件营销',
+        name: 'xxx',
         type: 'line',
         smooth: true, // 圆滑的线
         // 单独修改当前线条的样式
@@ -422,7 +422,7 @@
         data: [30, 40, 30, 40, 30, 40, 30, 60, 20, 40, 30, 40, 30, 40, 30, 40, 30, 60, 20, 40, 30, 40, 30, 40, 30, 40, 20, 60, 50, 40]
       },
       {
-        name: "转发量",
+        name: "xxx",
         type: "line",
         smooth: true,
         lineStyle: {
@@ -585,31 +585,31 @@
       },
       data: [{
           value: 26,
-          name: '北京'
+          name: 'a'
         },
         {
           value: 24,
-          name: '山东'
+          name: 'b'
         },
         {
           value: 25,
-          name: '河北'
+          name: 'c'
         },
         {
           value: 20,
-          name: '江苏'
+          name: 'd'
         },
         {
           value: 25,
-          name: '浙江'
+          name: 'e'
         },
         {
           value: 30,
-          name: '四川'
+          name: 'f'
         },
         {
           value: 42,
-          name: '湖北'
+          name: 'g'
         }
       ]
     }]
